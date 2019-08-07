@@ -1,6 +1,6 @@
 // Setting Dependencies
 const router = require("express").Router();
-const booksController = require("../../controller/booksController");
+const booksController = require("../../controller/controllers");
 
 //  .get finds all books and .post posts books 
 router.route("/")

@@ -1,6 +1,6 @@
 // Setting dependencies
 const router = require("express").Router();
-const bookRoutes = require("./books");
+const bookRoutes = require("./book");
 
 // Book route
 router.use("/books", bookRoutes);
